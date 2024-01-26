@@ -1,4 +1,4 @@
-def display_hangman():
+def display_hangman(tries):
     stages = [ """
                     --------
                     |      |
@@ -63,4 +63,4 @@ def display_hangman():
                     - 
               """
     ]
-    return stages    
+    return stages[tries]    
